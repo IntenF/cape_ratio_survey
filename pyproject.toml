@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cape_ratio_survey"
+version = "1.0.0"
+description = "survey on CAPE ratio"
+authors = ["intenf from bigboss <taichi.nakamura2104@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.22.4"
+tqdm = "^4.64.0"
+jupyter = "^1.0.0"
+matplotlib = "^3.5.2"
+pandas = "^1.4.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
